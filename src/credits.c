@@ -8,9 +8,3 @@ void print_credits(void) {
     fprintf(stderr, "# Thanks to: %s, lrdsnow, circular, katie, James Wallman\n", SEVERAL);
     fprintf(stderr, "# femra1n team (Glitter-chan, lrdsnow, circular)\n");
 }
-
-int main(void) {  // Add a main function
-    print_credits();  // Call the function within main
-    return 0;
-}
-
